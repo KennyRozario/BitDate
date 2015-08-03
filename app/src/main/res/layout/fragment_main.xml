@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:clipChildren="false"
+              tools:context=".MainActivity$PlaceholderFragment">
+
+    <com.example.kenny.bitdate.CardStackContainer
+        android:id="@+id/card_stack"
+        android:layout_width="270dp"
+        android:layout_height="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <ImageButton
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_nah"
+            android:id="@+id/nah_button"
+            android:elevation="8dp"
+            android:background="@drawable/nah_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <ImageButton
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_yeah"
+            android:id="@+id/yeah_button"
+            android:elevation="8dp"
+            android:background="@drawable/yeah_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
